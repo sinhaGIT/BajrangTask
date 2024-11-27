@@ -5,6 +5,7 @@
 ## User settings
 xcuserdata/
 
+
 ## Obj-C/Swift specific
 *.hmap
 
@@ -12,6 +13,7 @@ xcuserdata/
 *.ipa
 *.dSYM.zip
 *.dSYM
+*.DS_Store
 
 ## Playgrounds
 timeline.xctimeline
@@ -30,6 +32,8 @@ playground.xcworkspace
 # .swiftpm
 
 .build/
+DerivedData/
+build/
 
 # CocoaPods
 #
