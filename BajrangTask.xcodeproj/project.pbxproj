@@ -46,16 +46,16 @@
 		18065C382CF75207008330DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18065C3B2CF75207008330DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18065C3D2CF75207008330DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18065C4C2CF76963008330DA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkManager.swift; path = ../../../../NetworkManager.swift; sourceTree = "<group>"; };
-		18065C4E2CF769C7008330DA /* CryptoCoinRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CryptoCoinRequest.swift; path = ../../../../CryptoCoinRequest.swift; sourceTree = "<group>"; };
-		18065C502CF76A4E008330DA /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CoinModel.swift; path = ../../../../CoinModel.swift; sourceTree = "<group>"; };
-		18065C522CF76A96008330DA /* CryptoCoinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CryptoCoinViewModel.swift; path = ../../../../CryptoCoinViewModel.swift; sourceTree = "<group>"; };
-		18065C552CF779F4008330DA /* ResponseParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResponseParser.swift; path = ../../../../ResponseParser.swift; sourceTree = "<group>"; };
-		18065C592CF792BF008330DA /* CryptoCoinListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CryptoCoinListViewController.swift; path = ../../../../../CryptoCoinListViewController.swift; sourceTree = "<group>"; };
-		18065C5B2CF849F5008330DA /* CryptoCoinTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CryptoCoinTableViewCell.swift; path = ../../../../../CryptoCoinTableViewCell.swift; sourceTree = "<group>"; };
-		18065C5D2CF84A73008330DA /* CryptoCoinCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CryptoCoinCellViewModel.swift; path = ../../../../CryptoCoinCellViewModel.swift; sourceTree = "<group>"; };
-		18065C602CF8823C008330DA /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UITableViewExtension.swift; path = ../../../../UITableViewExtension.swift; sourceTree = "<group>"; };
-		18065C632CF88B0E008330DA /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = ../../../../UIColorExtension.swift; sourceTree = "<group>"; };
+		18065C4C2CF76963008330DA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		18065C4E2CF769C7008330DA /* CryptoCoinRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCoinRequest.swift; sourceTree = "<group>"; };
+		18065C502CF76A4E008330DA /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
+		18065C522CF76A96008330DA /* CryptoCoinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCoinViewModel.swift; sourceTree = "<group>"; };
+		18065C552CF779F4008330DA /* ResponseParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseParser.swift; sourceTree = "<group>"; };
+		18065C592CF792BF008330DA /* CryptoCoinListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCoinListViewController.swift; sourceTree = "<group>"; };
+		18065C5B2CF849F5008330DA /* CryptoCoinTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCoinTableViewCell.swift; sourceTree = "<group>"; };
+		18065C5D2CF84A73008330DA /* CryptoCoinCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCoinCellViewModel.swift; sourceTree = "<group>"; };
+		18065C602CF8823C008330DA /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		18065C632CF88B0E008330DA /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		184D23302CFB000D0011DDA6 /* ConnectivityMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivityMonitor.swift; sourceTree = "<group>"; };
 		184D23382CFB0B960011DDA6 /* BajrangTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BajrangTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		184D233A2CFB0B960011DDA6 /* BajrangTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BajrangTaskTests.swift; sourceTree = "<group>"; };
@@ -167,16 +167,8 @@
 			isa = PBXGroup;
 			children = (
 				18065C5F2CF8821A008330DA /* Extensions */,
-				18065C492CF75888008330DA /* Constants */,
 			);
 			path = GeneralUtilities;
-			sourceTree = "<group>";
-		};
-		18065C492CF75888008330DA /* Constants */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Constants;
 			sourceTree = "<group>";
 		};
 		18065C4A2CF759FE008330DA /* Manager */ = {
