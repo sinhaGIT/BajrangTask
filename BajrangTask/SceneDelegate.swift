@@ -16,7 +16,16 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        
+        if let windowScene = scene as? UIWindowScene {
+            window = UIWindow(windowScene: windowScene)
+            
+            let rootController = UINavigationController(rootViewController: CryptoCoinListViewController())
+            
+            window?.rootViewController = rootController
+            window?.makeKeyAndVisible()
+            setupUniversalNavigationBarAppearance(navigationController: rootController)
+        }
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -47,6 +56,20 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // to restore the scene back to its current state.
     }
 
+    func setupUniversalNavigationBarAppearance(navigationController: UINavigationController) {
+        if #available(iOS 13.0, *) {
+            let appearance = UINavigationBarAppearance()
+            appearance.configureWithOpaqueBackground()
+            appearance.backgroundColor = UIColor(hex: 0x6200ED)
+            
+            // Set title text color
+            appearance.titleTextAttributes = [.foregroundColor: UIColor.white]
+            
+            // Apply the appearance for both standard and scroll edge states
+            navigationController.navigationBar.standardAppearance = appearance
+            navigationController.navigationBar.scrollEdgeAppearance = appearance
+        }
+    }
 
 }
 
